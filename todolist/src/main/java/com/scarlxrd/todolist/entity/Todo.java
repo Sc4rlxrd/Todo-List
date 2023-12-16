@@ -3,7 +3,6 @@ package com.scarlxrd.todolist.entity;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name="todoName")
 public class Todo {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
